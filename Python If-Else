@@ -1,0 +1,10 @@
+import math#this hear imports the maths library that contains all maths functions#
+n=int(input(""))#this hear takes the input from user#
+if n%2!=0:
+    print("Weird")
+elif 2<=n<=5:
+    print("Not Weird")
+elif 6<=n<=20:
+    print("Weird")
+elif n>20:
+    print("Not Weird")
